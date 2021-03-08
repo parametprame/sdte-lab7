@@ -7,6 +7,6 @@
   - name: "change website content to hostname"
     replace:
       path: /var/www/default/index.html
-      regexp: 'LAB'
+      regexp: 'HOST'
       replace: '{{ hostname }}'
       backup: yes
