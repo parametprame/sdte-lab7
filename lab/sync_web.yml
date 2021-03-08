@@ -1,0 +1,8 @@
+- hosts: web
+  tasks:
+  - name: "copy website"
+    become: yes
+    become_user: root
+    copy:
+      src: site/
+      dest: /var/www/default
