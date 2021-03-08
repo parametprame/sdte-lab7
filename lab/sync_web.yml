@@ -1,4 +1,4 @@
-  - hosts: web
+- hosts: web
   tasks:
   - name: "copy website"
     copy:
